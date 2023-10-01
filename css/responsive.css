@@ -1,0 +1,157 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .client_testimonial_area_responsive {
+    height: 300px;
+  }
+  nav a:first-child {
+    width: 80% !important;
+  }
+  nav button {
+    position: relative;
+    left: -30px;
+  }
+  .portfolio_area_responsive img {
+    width: 75% !important;
+    margin: auto;
+  }
+  .portfolio_blue_bg {
+    display: none;
+  }
+  .contact_us_area {
+    padding: 30px 10px !important;
+  }
+  div#navbarSupportedContent {
+    padding-bottom: 35px;
+}
+a.text-dark.nav_contact_us_button {
+    /* margin-top: 27px; */
+    position: relative;
+    top: 15px;
+}
+#client_section{
+  padding: 0 50px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .hero_right_area img[alt='phone2'] {
+    display: none;
+  }
+  img[src='img/whyUs.png'].why_us_image_responsive {
+    display: none;
+  }
+  .why_us_div_hide{
+    display: none;
+  }
+
+  .client_testimonial {
+    padding: 30px;
+  }
+  footer img[alt='footer_logo'] {
+    width: 50% !important;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .hero_area {
+    display: flex;
+    align-items: center;
+  }
+  .hero_right_area img[alt='phone1'],
+  .hero_right_area img[alt='phone3'] {
+    display: none;
+  }
+  .why_us_image_area .w-75 {
+    width: 100% !important;
+  }
+  img.w-75.why_us_image_responsive {
+    width: 350px !important;
+  }
+  nav ul li:before {
+  display: none;
+}
+
+img.w-75.why_us_image_responsive:first-child {
+  width: 300px !important;
+}
+img.w-75.why_us_image_responsive:last-child {
+  width: 200px !important;
+}
+
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  nav ul li {
+  display: inline-block;
+  position: relative;
+}
+nav ul li:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 0px;
+  bottom: -5px;
+  left: 0;
+  background: #0D13D7;
+transition: all linear 0.25s;
+border-radius: 30px;
+}
+
+nav ul li:hover:before {
+  width: 100%
+}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {
+  nav ul li {
+  display: inline-block;
+  position: relative;
+}
+nav ul li:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 0px;
+  bottom: -5px;
+  left: 0;
+  background: #0D13D7;
+transition: all linear 0.25s;
+border-radius: 30px;
+}
+
+nav ul li:hover:before {
+  width: 100%
+}
+#whyUs_section figure{
+  right: -20%;
+
+}
+ 
+}
+@media (min-width: 1400px) {
+  /* navbar */
+ 
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+nav ul li:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 0px;
+  bottom: -5px;
+  left: 0;
+  background: #0D13D7;
+transition: all linear 0.25s;
+border-radius: 30px;
+}
+
+nav ul li:hover:before {
+  width: 100%
+}
+}
