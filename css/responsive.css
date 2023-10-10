@@ -4,7 +4,7 @@
     height: 300px;
   }
   nav a:first-child {
-    width: 80% !important;
+    width: 70% !important;
   }
   nav button {
     position: relative;
@@ -20,14 +20,6 @@
   .contact_us_area {
     padding: 30px 10px !important;
   }
-  div#navbarSupportedContent {
-    padding-bottom: 35px;
-}
-a.text-dark.nav_contact_us_button {
-    /* margin-top: 27px; */
-    position: relative;
-    top: 15px;
-}
 #client_section{
   padding: 0 50px;
 }
@@ -39,6 +31,9 @@ a.text-dark.nav_contact_us_button {
     display: none;
   }
   img[src='img/whyUs.png'].why_us_image_responsive {
+    display: none;
+  }
+  #whyUs_section img[src="img/why_us_bg.png"]{
     display: none;
   }
   .why_us_div_hide{
@@ -78,8 +73,13 @@ img.w-75.why_us_image_responsive:first-child {
 img.w-75.why_us_image_responsive:last-child {
   width: 200px !important;
 }
-
-  
+div#navbarSupportedContent {
+    padding-bottom: 35px;
+}
+a.text-dark.nav_contact_us_button {
+    position: relative;
+    top: 15px;
+} 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -103,6 +103,7 @@ border-radius: 30px;
 nav ul li:hover:before {
   width: 100%
 }
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -155,3 +156,4 @@ nav ul li:hover:before {
   width: 100%
 }
 }
+

@@ -39,9 +39,9 @@ a {
   z-index: -1;
   min-height: 1000px;
   height: 100vh;
-  background-image: url('../img/banner_bg.png');
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
+  background-image: url('../img/banner_bg.png');
 }
 
 .nav_contact_us_button {
@@ -80,9 +80,12 @@ nav figure{
 /* ==================== End Services us Section ============================*/
 
 /* ==================== why us Section ============================*/
+
 #whyUs_section img[src="img/why_us_bg.png"]{
-  position: relative;
-  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  width: 35vw;
+  max-width: 500px;
 }
 #whyUs_section figure{
   position: absolute;
@@ -98,6 +101,9 @@ nav figure{
 /* ==================== portfolio Section ============================*/
 #ourGoals_section i {
   font-size: 50px;
+}
+.porfolio_area{
+  position: relative;
 }
 .portfolio_blue_bg {
   position: absolute;
